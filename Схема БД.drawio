@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net" modified="2023-09-16T12:37:35.407Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="zLkr56X2BUOoATSO5ro3" version="21.7.5" type="device">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gpQsvd7t5DxRkCJj9pPz-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gpQsvd7t5DxRkCJj9pPz-15" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="gpQsvd7t5DxRkCJj9pPz-14">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gpQsvd7t5DxRkCJj9pPz-60" value="Книги" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="100" width="290" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="gpQsvd7t5DxRkCJj9pPz-61" value="Шифр книги&lt;br&gt;Название&lt;br&gt;Автор(ы)&lt;br&gt;Год издания&lt;br&gt;Объем (в страницах)&lt;br&gt;Цена&lt;br&gt;Количество экземпляров в фонде" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="gpQsvd7t5DxRkCJj9pPz-60">
+          <mxGeometry y="50" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gpQsvd7t5DxRkCJj9pPz-62" value="Читатели" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="100" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gpQsvd7t5DxRkCJj9pPz-63" value="Номер читательского билета&lt;br&gt;ФИО&lt;br&gt;Адрес&lt;br&gt;Телефон" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="gpQsvd7t5DxRkCJj9pPz-62">
+          <mxGeometry y="50" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gpQsvd7t5DxRkCJj9pPz-64" value="Издательства" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gpQsvd7t5DxRkCJj9pPz-65" value="Название&lt;br&gt;Город" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="gpQsvd7t5DxRkCJj9pPz-64">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
